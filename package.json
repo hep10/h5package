@@ -1,0 +1,29 @@
+{
+  "name": "资源名称",
+  "description": "本资源包的描述说明",
+  "index": "index.html",
+  "author": "hep <digi@hep.com>",
+  "version": "0.0.1",
+  "dependencies": {
+    "style.css": "2kb",
+    "background.png": "*"
+  },
+  "cdn": "https://cdn.bootcss.com",
+  "device": [{
+    "mobile": {
+      "chrome": "*",
+      "safari": "*",
+      "android": "^4.0"
+    }
+  }, {
+    "desktop": {
+      "chrome": "*",
+      "safari": "*",
+      "ie": "^9",
+      "firefox": "*",
+      "opera": "*"
+    }
+  }],
+
+  "license": "MIT"
+}
