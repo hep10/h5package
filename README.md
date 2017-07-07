@@ -30,3 +30,5 @@
 10 对于每个资源包 都有一个``package.json`` 描述本包，见package.json
 
 ## 其他
+有意见和建议，请提交到 ``issue``中，欢迎fork并贡献代码。
+
