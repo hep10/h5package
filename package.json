@@ -4,7 +4,7 @@
   "index": "index.html",
   "author": "hep <digi@hep.com>",
   "version": "0.0.1",
-  "dependencies": {
+  "files": {
     "style.css": "2kb",
     "background.png": "*"
   },
