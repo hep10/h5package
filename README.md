@@ -22,20 +22,18 @@
 
 7 所有文件 以``zip``压缩，后缀为 .hep5 的方式提交
 
-8 可以选用js css cdn库，推荐的库有：
-
-``https://www.staticfile.org/``
-``http://www.bootcdn.cn/``
-等,使用CDN的时候，请在package中注明。
-
-9 单个文件大小不超过10M，总项目包大小不超过100M
+8 单个文件大小不超过10M，总项目包大小不超过100M
 
 ## 建议
 1 所有文件文件名都采用小写英文字母和数字构成。
 
 2 所有文件都在同一级目录下，不新建子目录。
 
+3 可以选用js css cdn库，推荐的库有：
 
+``https://www.staticfile.org/``
+``http://www.bootcdn.cn/``
+等,使用CDN的时候，请在package中注明。
 
 
 
