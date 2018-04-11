@@ -5,8 +5,13 @@
   "author": "hep <digi@hep.com>",
   "version": "0.0.1",
   "files": {
-    "style.css": "2kb",
-    "background.png": "10kb"
+    "hep.js": "117",
+    "README.md": "1429",
+    "index.html": "1737",
+    "logo.jpg": "11007",
+    "modernizr-3.5.0.min.js": "8636",
+    "normalize.css": "7719",
+    "style.css": "72"
   },
   "cdn": "https://cdn.bootcss.com",
   "device": [{
