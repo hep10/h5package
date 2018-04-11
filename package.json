@@ -6,7 +6,7 @@
   "version": "0.0.1",
   "files": {
     "style.css": "2kb",
-    "background.png": "*"
+    "background.png": "10kb"
   },
   "cdn": "https://cdn.bootcss.com",
   "device": [{
