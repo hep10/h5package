@@ -38,5 +38,21 @@
 
 
 ## 其他
+
+如果你用webpack 可以直接在脚本中增加打包的功能 代码示例如下：
+
+```
+npm i webpack-zip-plugin --save-dev
+
+
+var WebpackZipPlugin = require('webpack-zip-plugin')
+new WebpackZipPlugin({
+      initialFile: './dist', //需要打包的文件夹(一般为dist)
+      endPath: './', //打包到对应目录（一般为当前目录'./'）
+      zipName: 'dgs.hep5' //打包生成的文件名
+    })
+
+```
 有意见和建议，请提交到 ``issue``中，欢迎fork并贡献代码。
+
 
