@@ -2,7 +2,7 @@
   "name": "资源名称",
   "description": "本资源包的描述说明",
   "index": "index.html",
-  "author": "hep <digi@hep.com>",
+  "author": ["hep <digi@hep.com>","张三"],
   "version": "0.0.1",
   "files": {
     "hep.js": "117",
