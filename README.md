@@ -40,30 +40,9 @@
 
 如果上传到二维码平台，则跳转到这个包的时候会给授权token，加上token的权限判断，则这个包就可以实现只能从二维码平台跳转过来的才可以访问
 
-示例代码如下
+整个过程已经封装好了只需要在页面引入js即可
 ```
-<script src="//2d.hep.cn/libs/jquery/dist/jquery.min.js"></script>
-<script>
-  var reg = `(^|&)token=([^&]*)(&|$)`
-  var token = window.location.search.substr(1).match(reg)
-  $(document).ready(function () {
-    if (token) {
-      $.getJSON("//2d.hep.cn/api/v1/validToken?" + token, {},
-        function (data, textStatus, jqXHR) {
-          if (data.success === false) {
-            if (data.fromURL) {
-              window.location = data.fromURL
-            } else {
-              // 如果访问这里，可以直接关闭当前页面，跑到这里面来，说明不是从二维码平台跳过去的，
-              // 我也不知道原始路径是哪里，直接不让访问即可。
-            }
-          }
-        }
-      )
-    }
-  })
-</script>
-
+<script src="http://2d.hep.cn/js/token.check.js"/>
 ```
 
 ## 其他
