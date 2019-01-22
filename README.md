@@ -42,7 +42,7 @@
 
 整个过程已经封装好了只需要在页面引入js即可
 ```
-<script src="http://2d.hep.cn/js/token.check.js"/>
+<script src="//2d.hep.com.cn/js/token.check.js"/>
 ```
 
 ## 其他
